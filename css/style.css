@@ -1,0 +1,506 @@
+/* Global CSS Start */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+}
+.text-center{
+	text-align: center;
+}
+
+/* Global CSS End */
+
+/* Header CSS Start */
+
+.header{
+	background-color: #232323;
+}
+.navbar .nav-item.active .nav-link{
+    color: #ee8337!important;
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+    padding: 12px 20px;
+}
+.navbar .nav-item .nav-link:hover{
+	color: #ee8337;
+	transition: 0.5s linear;
+}
+
+/* Header CSS End */
+
+/* Banner CSS Start */
+.banner{
+	background: url(../image/banner-bg.png);
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 60px;
+    margin-top: 120px;
+}
+.banner .highlight{
+    color: #ff8b38;
+}
+.banner .sub-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.banner .line{
+    color: #ff8b38;
+    height: 2px;
+    width: 15%;
+    border: 2px solid;
+    margin: 20px 0;
+}
+.banner .paragraph{
+    color: #fff;
+    padding-right: 36px;
+}
+.banner .btn-cta{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.banner .btn-cta:hover{
+	background: #ff8b38;
+	border: 1px solid #ff8b38;
+	text-decoration: none;
+	transition: 0.4s linear;
+}
+
+.submission-form{
+    margin: 0 13px;
+}
+.submission-form .form-group{
+    background: #fff;
+    margin-top: 120px;
+}
+.submission-form h3{
+    text-align: center;
+    background: #e4e4e4;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.submission-form .form-fields{
+    padding: 0 42px;
+}
+.submission-form .highlight2 {
+    text-transform: uppercase;
+    color: #f97c22;
+}
+.submission-form .form-control {
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0;
+    padding: 32px 10px;
+}
+.submission-form .btn-from {width: 100%;background: #f97c22;padding: 10px;margin-top: 38px;color: #fff;font-size: 22px;border-radius: 0;text-transform: uppercase;}
+
+/* Banner CSS End */
+
+/* Social CSS Start */
+.social{
+    padding: 18px 0;
+    border-bottom: 2px solid #dadada;
+}
+.social .social-content{
+    padding-top: 20px;
+}
+.social h4{
+    font-weight: 600;
+}
+.social-network{
+    list-style: none;
+    float: right;
+    padding-top: 43px;
+}
+.social-network .list-item{
+    display: inline-block;
+    /* background: #e4e4e4; */
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin-left: 36px;
+}
+.social-network .fa{
+    color: #bbb;
+    font-size: 42px;
+}
+.social-network .fa:hover{
+	color: #f97c22;
+}
+/* Social CSS End */
+
+/* Features CSS Start */
+.features{
+	padding: 80px 0;
+	background: #f5f5f5;
+}
+.features .tab-group{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    width: 80%;
+}
+.features .tab-item{
+    background: #1d1d1d;
+    text-align: center;
+    /* width: 90%; */
+    padding: 32px 0;
+}
+.features .tab-group .tabs{
+    /* background: red; */
+    padding: 33px 42px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+.features .tab-group .tab-1.active{
+	background: #f97c22;
+}
+.features .tab-group .content-1{}
+.features h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.features p{
+    font-size: 14px;
+    text-align: justify;
+}
+.features .btn-tab{
+    background: #f97c22;
+    color: #fff;
+    margin-top: 30px;
+    padding: 12px 30px;
+}
+/* Features CSS End */
+
+/* Sublist CSS Start */
+.sublist{
+	padding: 80px 0;
+}
+.sublist img{
+	margin-top: 25px;
+}
+.sublist .main-header{
+    font-weight: 600;
+    font-size: 22px;
+}
+.sublist .highlight{
+    height: 1px;
+    width: 15%;
+    color: #f97c22;
+    border: 2px solid #f97c22;
+    margin: 20px 0;
+}
+.sublist .main-para{
+    font-size: 14px;
+    padding-right: 70px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+.media .list-item{
+	list-style: none;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 2px solid #f97c22;
+	border-radius: 50px;
+}
+.media .list-link{
+    color: #f97c22;
+}
+.sublist .media{
+    margin: 16px 0;
+}
+.media .header2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.media .para2{
+    font-size: 14px;
+    padding-right: 70px;
+    text-align: justify;
+}
+/* Sublist CSS End */
+
+/* Standard Section CSS Start */
+.standard-pic{
+	padding: 80px 0;
+	background: #f5f5f5;
+}
+.standard-pic .main-header{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 38px;
+}
+.standard-pic .highlight{
+    height: 1px;
+    width: 15%;
+    color: #f97c22;
+    border: 2px solid #f97c22;
+    margin: 20px 0;
+}
+.standard-pic .main-para{
+    font-size: 14px;
+    padding-right: 70px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+/* Standard Section CSS End */
+
+/* Why This is Awesome Section CSS */
+/* Why This is Awesome Section CSS */
+
+/* Pricing CSS Start */
+.pricing{
+	padding: 80px 0;
+	background: whitesmoke;
+}
+.pricing .main-title{
+    background: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 100;
+    border: 0;
+}
+.pricing .main-pera{
+    color: #333;
+    margin: 20px 0;
+    margin-bottom: 80px;
+}
+.pricing .highlight{
+    color: #f97c22;
+    height: 2px;
+    width: 5%;
+    border: 2px solid;
+    margin: 0 auto;
+}
+.pricing .pricing-table{
+	margin-top: 42px;
+}
+.pricing .pricing-table-popular .price{
+	padding: 0;
+}
+.pricing .price{
+    background: #333;
+    padding: 1px 0;
+}
+.pricing h2{
+    color: #fff;
+    font-size: 68px;
+    font-weight: bold;
+}
+.pricing .text-control{
+    font-size: 18px;
+}
+.pricing h4{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
+.pricing p{
+    color: #fff;
+    font-style: italic;
+}
+.pricing .popular{
+    background: #f97c22;
+    font-style: normal;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+.pricing .price-data{
+    list-style: none;
+    padding: 0;
+    background: #fff;
+}
+.pricing .price-list{
+    padding: 10px 0;
+    border-bottom: 1px solid #d6d6d6;
+    text-transform: uppercase;
+}
+
+/* Pricing CSS End */
+
+/* Testimonials Section Start */
+.testimonials{
+	padding: 80px 0;
+}
+.testimonials .main-title{
+    background: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 100;
+    border: 0;
+}
+.testimonials .main-pera{
+    color: #333;
+    margin: 20px 0;
+    margin-bottom: 80px;
+}
+.testimonials .highlight{
+    color: #f97c22;
+    height: 2px;
+    width: 5%;
+    border: 2px solid;
+    margin: 0 auto;
+}
+.testimonials .quote{
+    background: whitesmoke;
+    padding: 15px;
+    font-size: 14px;
+    font-style: italic;
+}
+.testimonials .name{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.testimonials .name h5{
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.testimonials .name p{}
+
+/* Testimonials Section End */
+
+/* Stylish CSS Start */
+.stylish{
+	padding: 80px 0;
+	background: url(../image/stylish-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.stylish .main-title{
+    background: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 100;
+    border: 0;
+}
+.stylish .main-pera{
+    color: #333;
+    margin: 20px 0;
+    margin-bottom: 80px;
+}
+.stylish .highlight{
+    color: #f97c22;
+    height: 2px;
+    width: 5%;
+    border: 2px solid;
+    margin: 0 auto;
+}
+.stylish .main-title{
+    color: #fff;
+}
+.stylish .main-pera{
+    color: #fff;
+    margin-bottom: 50px;
+}
+.stylish .btn-cta{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border: 1px solid #f97c22;
+    border-radius: 3px;
+    background: #f97c22;
+}
+.stylish .btn-cta:hover{
+	background: #ff7818;
+	border: none;
+	transition: 0.4s linear;
+}
+/* Stylish CSS End */
+
+/* Contact CSS Start */
+.contact{
+	padding: 80px;
+}
+.contact .main-title{
+    background: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 100;
+    border: 0;
+}
+.contact .main-pera{
+    color: #333;
+    margin: 20px 0;
+    margin-bottom: 80px;
+}
+.contact .highlight{
+    color: #f97c22;
+    height: 2px;
+    width: 5%;
+    border: 2px solid;
+    margin: 0 auto;
+}
+.contact .my-form{
+    margin-bottom: 45px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.contact .my-form-text{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin-left: 25px;
+}
+.contact .form-btn{
+    background: #f97c22;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 12px 30px;
+}
+/* Contact CSS End */
+
+/* Footer CSS Start */
+.footer{
+	padding: 25px 0;
+	background: #333;
+}
+.footer .list{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+.footer .list-item{
+    display: inline-block;
+}
+.footer .fa{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 22px;
+}
+.footer .copyright{
+	color: #fff;
+}
+/* Footer CSS End */
