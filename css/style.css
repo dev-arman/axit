@@ -169,7 +169,7 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     text-decoration: none;
 }
-.features .tab-group .tab-1.active{
+.features .tab-group .active{
 	background: #f97c22;
 }
 .features .tab-group .content-1{}
